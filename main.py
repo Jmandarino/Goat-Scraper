@@ -1,8 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 
-http_proxy  = "http://webproxy.itginc.com:8080"
-https_proxy = "http://webproxy.itginc.com:8080"
+http_proxy  = ""
+https_proxy = ""
 
 proxyDict = {
               "http"  : http_proxy,
